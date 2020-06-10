@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0 auto;
-    font-family: sans-serif;
+   font-family: 'Work Sans',
+   sans-serif;
 }
 
 .main-content {
@@ -48,7 +51,7 @@ body {
     background-color: #f4f4f4;
     background-image: url('./images/search.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 400px;
 }
 
 .search input:focus {
@@ -191,9 +194,10 @@ body {
 .logo-column {
     background-image: url('./images/Left_image.png');
     height: 800px;
-    width: 600px;
+    width: 550px;
     align-self: center;
     padding: 5rem 7rem 0 7rem;
+    background-size: cover;
 }
 
 .logo-image {
@@ -213,6 +217,7 @@ body {
 
 .MGPS-text {
     margin-top: 0;
+    font-weight: normal;
 }
 
 .logo-text {
@@ -270,6 +275,7 @@ body {
 .login-div-item2 {
     margin-left: auto;
     color: #fca927;
+    font-weight: normal;
 }
 
 form {
@@ -283,6 +289,8 @@ form {
 .form-control small {
     display: block;
     margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 10px;
 }
 
 form input {
@@ -291,7 +299,7 @@ form input {
     border-radius: 8px;
     font-size: 16px;
     padding: 12px 20px 12px 20px;
-    background-color: inherit
+    background-color: rgba(46, 156, 93, 0.5);
 }
 
 form input:focus {
