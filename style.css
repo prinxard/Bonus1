@@ -21,8 +21,8 @@ body {
 /* Second Div */
 
 .portals-column {
-    height: 800px;
-    width: 600px;
+    height: 780px;
+    flex-basis: 600px;
     padding: 5rem 5rem 0 5rem;
 }
 
@@ -216,9 +216,9 @@ body {
 
 .logo-column {
     background-image: url('./images/Left_image.png');
-    height: 800px;
-    width: 550px;
-    padding: 5rem 7rem 0 7rem;
+    height: 780px;
+    flex-basis: content;
+    padding: 3rem 5rem 0 5rem;
     background-size: cover;
 }
 
