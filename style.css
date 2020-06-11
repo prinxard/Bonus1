@@ -249,16 +249,6 @@ body {
     border-bottom: thin;
 }
 
-.login-div-item1 {
-    font-size: large;
-    font-weight: 600;
-}
-
-.login-div-item3 {
-    padding-left: 7px;
-    color: #fca927;
-}
-
 .MGPS-div-item2 {
     cursor: pointer;
     height: 20px;
@@ -281,12 +271,22 @@ body {
 .login-div {
     margin-bottom: 25px;
 }
+.login-div-item1 {
+    font-size: large;
+    font-weight: 600;
+}
 
+.login-div-item3 {
+    padding-left: 7px;
+    color: #fca927;
+    align-self: flex-end;
+}
 .login-div-item2 {
     margin-left: auto;
     color: #fca927;
     font-weight: normal;
     font-size: smaller;
+    align-self: center;
 }
 
 form {
